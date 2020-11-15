@@ -1,4 +1,4 @@
-.header {
+.header, .main, .left-sidebar {
   margin-bottom: 80.0px;
 }
 
@@ -37,6 +37,25 @@
 
 .navbar-header {
   text-align: center;
+}
+
+.panel {
+  margin-bottom: 30px;
+  border: none;
+  background-color: #ebebeb;
+}
+
+.panel-info > .panel-heading {
+  letter-spacing: 0.1em;
+  color: #fff;
+  border: none;
+  background-color: #df8a13;
+  font-size: 1.2rem;
+}
+
+.panel-body {
+  border-radius: 0 0 4px 4px;
+  border: 1px solid #dddddd;
 }
 
 html {
@@ -93,6 +112,19 @@ a:hover, a:focus {
   display: block;
   letter-spacing: 0.2em;
   color: #fff;
+}
+
+.panel:last-of-type {
+  margin-bottom: 0;
+}
+
+.vertical-slider {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.vertical-slider__image {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
